@@ -1,0 +1,57 @@
+		i
+		{
+			width: 10%;
+			margin: 6%;
+			color: blue;
+		}
+
+		header
+		{
+			background: #ffffff url(https://static.vecteezy.com/system/resources/thumbnails/002/207/821/small/dark-blue-modern-technology-background-free-vector.jpg) no-repeat ;
+			background-size: cover;
+		}
+		
+		header>img
+		{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		header h1
+		{
+			text-align: center;
+			color: #ffffff;
+		}
+
+		header p
+		{
+			text-align: center;
+			color: #ffffff;
+			font-size: 150%;
+		}
+
+		.skills
+		{
+			text-align: center;
+		}
+		
+		.edu
+		{
+			background-color: pink;
+			text-align: center;
+
+		}
+		.hobbies
+		{
+			background-color: lightblue;
+			text-align: center;
+
+		}
+		iframe
+		{
+			height: 100%;
+			width: 100%;
+		}
+	
+	
