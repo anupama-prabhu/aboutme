@@ -4,32 +4,42 @@
 			margin: 6%;
 			color: blue;
 		}
-
-		header
+        
+        header h1
 		{
-			background: #ffffff url(https://static.vecteezy.com/system/resources/thumbnails/002/207/821/small/dark-blue-modern-technology-background-free-vector.jpg) no-repeat ;
+            display: block;
+			text-align: center;
+			color: #e1c8c8;
+            background-color:#257c7e;
+            margin: 0;
+            padding: 0; 
+            border: 1px solid ;
+            height: 50px;
+		}
+
+		.main
+		{
+			background: #ffffff url(images/backgroundimage_Unsplash.jpg) no-repeat ;
 			background-size: cover;
 		}
+
+		.main img
+		{
+			display: inline-block;
+			width:30%;
+		}
 		
-		header>img
+		.main p
 		{
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		header h1
-		{
-			text-align: center;
-			color: #ffffff;
-		}
-
-		header p
-		{
-			text-align: center;
-			color: #ffffff;
+            display:inline-block;
+			text-align:center;
+			color: #fbfbfb;
+            vertical-align: top;
 			font-size: 150%;
-		}
+            width:55%;
+            height:200px;
+            padding-top:7%;
+        }
 
 		.skills
 		{
@@ -38,14 +48,21 @@
 		
 		.edu
 		{
+            display:block;
 			background-color: pink;
 			text-align: center;
+            padding:0;
+            margin:0;
 
 		}
 		.hobbies
 		{
+            display:block;
 			background-color: lightblue;
 			text-align: center;
+            padding:0;
+            margin:0;
+
 
 		}
 		iframe
