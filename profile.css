@@ -1,6 +1,7 @@
         html 
         {
             margin: 1% 2% 1%;
+            font-family: "Playfair Display";
         }	
 
         i
@@ -33,6 +34,7 @@
 		{
 			display: inline-block;
 			width:30%;
+            padding-top:3%;
 		}
 		
 		.main p
