@@ -49,22 +49,25 @@
 		.edu
 		{
             display:block;
-			background-color: pink;
+			background-color: #dbc8c8;
 			text-align: center;
-            padding:0;
-            margin:0;
+            padding: 10px;
+            margin: 0;
+            border: 1px solid;
+            border-radius: 20px;
+        	}
 
-		}
 		.hobbies
 		{
             display:block;
-			background-color: lightblue;
+			background-color: #b7c8cd;
 			text-align: center;
-            padding:0;
-            margin:0;
-
-
+            padding: 10px;
+            margin: 0;
+            border: 1px solid ;
+            border-radius:20px;
 		}
+
 		iframe
 		{
 			height: 100%;
